@@ -1,0 +1,844 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+ font-family:Arial, Helvetica, sans-serif;
+ background-color: transparent;
+}
+nav
+{
+    width: 100%;
+    padding: 5px 10%;
+   display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: blue;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 77;
+
+}
+.left-side
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo
+{
+    width: 160px;
+    margin-right: 45px;
+}
+.left-side ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none ;
+
+}
+.left-side ul li
+{
+  
+    padding: 45px;
+}
+
+.left-side ul li img
+{
+    width: 30px;
+}
+.side 
+{
+    background-color:white;
+width: 350px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    padding:0 10px;
+}
+.search
+{
+    width: 18px;
+    margin-right: 10px;
+}
+.side input
+{
+    width: 100%;
+    outline:none;
+    border: 0;
+    background-color: transparent;
+    padding: 5px 15px;
+
+}
+.online::after
+{
+
+    content: "";
+    position: absolute;
+    right:  0;
+    top: 0;
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px white;
+
+}
+
+.rightimg 
+{
+width: 60px;
+border-radius: 50%;
+margin-left: 40px;
+cursor: pointer;
+position: relative;
+}
+.rightimg  img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+.online
+{
+    position: relative;
+}
+
+
+.left-sidebar
+{
+
+top: 80px;
+position:sticky;
+top: 80px;
+left: 30px;
+
+}
+.left-sidebar a{
+    color: #2f2f2f;
+}
+
+.main-sidebar
+{
+
+position:sticky;
+top: 80px;
+}
+.lefticons a
+{
+ width: 55px;
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 30px;
+color: #2f2f2f;
+    font-size: 20px;
+transition: all 0.3s ease;
+
+}
+.lefticons img
+{
+    width: 20px;
+    margin-right:15px;
+  
+}
+.lefticons a:hover
+{
+    text-decoration: none;
+    color: crimson;
+    transform: scale(1.2);
+}
+.lefticonlink 
+{
+    font-size:15px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+
+}
+.lefticonlink a:hover
+{
+
+    text-decoration: none;
+    color: crimson;
+
+}
+.tit 
+{
+    margin-bottom: 3px;
+}
+.lefticonlink a
+{
+transition: all 0.3s ease;
+font-size: 13px;
+  
+}
+section
+{
+    height: auto;
+    
+}
+.leftphotos p
+{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color:#2f2f2f;
+    font-weight: 200;
+
+
+}
+.leftphotos img
+{
+    width: 40px;
+    margin-right: 20px;
+}
+.shortcuts
+{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+margin-bottom: 10px;
+}
+
+.right-title
+{
+
+    display: flex ;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color:white;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 10PX;
+
+}
+.right-title h4
+{
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+
+}
+.right-title a
+{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+
+}
+
+
+.right-sidebar
+{
+padding: 0 10%;
+background-color:white;
+position:sticky;
+top: 80px;
+border-radius: 10px;
+right: 20px;
+}
+.event 
+{
+    display: flex;
+  margin-bottom: 10px;
+    
+    font-size: 14px;
+}
+
+.event-left
+{
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    padding-top:10px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.event p,a
+{
+    font-size: 9px;
+}.event h3
+{
+    font-size: 13px;
+}
+
+span
+{
+    color: white;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(4, 4, 44);
+
+}
+.event-right
+{
+height: 40px;
+}
+.event-right i{
+margin-right: 5px;
+}
+.event-right a:hover
+{
+    text-decoration: none;
+    color: brown;
+}
+.event-right a
+{
+    transition: all 0.2s ease;
+    font-weight: 400;
+}
+
+
+.event-left a:hover
+{
+    text-decoration: none;
+    color: brown;
+}
+.event-left a
+{
+    transition: all 0.2s ease;
+    font-weight: 400;
+}
+.adv-img
+{
+    width:75%;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+.people p  
+{
+    text-align: center;
+    width: 12px;
+    font-weight: 500;
+}
+.people-list  img
+{
+    width: 50px;
+    height: 50px;
+} 
+
+.main-sidebar
+{
+    padding:5px 0 ;
+    left:27%;
+}
+.main-story
+{
+    background-image:url(images/status-1.png) ;
+    background-position: center;
+    background-size: 100%;
+    width: 150px;
+   height:200px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+ 
+.main-story-2
+{
+    background-image:url(images/status-2.png) ;
+    background-position: center;
+    background-size: 100%;
+    width: 150px;
+    height:200px;
+   
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.main-story-5
+{
+    background-image:url(images/status-5.png) ;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 150px;
+    height:200px;
+   
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.main-story-4
+{
+    background-image:url(images/status-4.png) ;
+    background-position: center;
+    background-size: 100%;
+    width: 150px;
+    height:200px;
+   
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.main-story-3
+{
+    background-image:url(images/status-3.png) ;
+    background-position: center;
+ 
+    width: 150px;
+    height:200px;
+   
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.story img
+{
+    width:30px;
+    height:30px;
+border-radius: 50%;
+border: solid 5px blue;
+position: absolute;
+top: -15px;
+left:0;
+
+}
+.upload
+{
+    bottom: 0;
+}
+.opinion
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+}
+.post
+{
+    margin-top:10px;
+    padding: 30px;
+    width: 100%;
+
+    background-color: white;
+    box-shadow: 1px 1px 3px black;
+}
+.post p
+{
+    color: #9a9a9a;
+}
+.user
+{
+    display: flex;
+
+    align-items:center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.user img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin:0 10px;
+
+}
+.user p
+{
+font-weight: 500;
+color: rgba(0, 0, 0, 0.844);
+}
+.user small
+{
+    font-size: 12px;
+}
+.post-input
+{
+    padding-left: 55px !important;
+    padding-right: 30px !important;
+margin-top: 0;
+
+}
+.post-input textarea
+{
+    width: 100%;
+    margin: 10px;
+    outline: 0;
+    border: 0;
+    border-bottom: solid 1px black;
+resize: none;
+}
+.adding img,a{
+    margin-right: 20px;
+}
+.adding a
+{
+    font-size: 12px;
+    color:#2f2f2f;
+    font-weight: 400;
+transition: all 0.2s ease;
+}
+.adding a:hover 
+{
+    color: rgb(180, 6, 6);
+    text-decoration: none;
+    font-size: 15px;
+}
+.adding img
+{
+    width: 25px;
+}
+.usertime 
+{
+
+font-size: 12px;
+color: gray;
+margin-top: 7px;
+
+}
+.posticons img
+{
+    width: 30px;
+    margin-right: 10px;
+}
+.posticons p
+{
+    margin-top: 14px;
+    margin-right: 25px;
+}
+.more img
+{
+    width: 10px;
+    height: 10px;
+}
+.add 
+{
+    padding:15px;
+    font-size: 16px;
+
+}
+
+.icon
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+top:349.8px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon i
+{
+color:white;
+}
+.btns
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    position: absolute;
+    top:346.8px;
+    left:35px;
+display: none;
+}
+.btns .btn1
+{
+    
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: rgb(253, 244, 244);
+margin-left:3px;
+}
+.btns .btn2
+{
+
+    width: 30px;
+    height: 30px;
+border-radius: 50%;
+background-color: rgb(18, 13, 13);
+margin-left: 10px;
+}
+body
+{
+    transition: all 1s;
+}
+.see button
+{
+    border-radius: 8px;
+
+    padding: 5px 10px;
+    font-size: 20px;
+color: black;
+}
+.footer
+{
+    text-align: center;
+    color:#9a9a9a;
+    font-size: 15px;
+padding: 10px o;
+}
+.profile-setting
+{
+background-color:white;
+width: 90%;
+max-width: 350px;
+position: absolute;
+top: 70px;
+right: 2.5%;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+height: 500px;
+overflow: hidden;
+max-height: 0;
+transition: all 1s ease;
+
+}
+.profile-setting-height
+{
+    max-height: 500px;
+}
+.user1
+{
+    padding: 8px;
+    width: 100%;
+
+}
+.user1 img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.setteing-links
+{
+font-size: 12px;
+}
+.user1 p{
+    margin-bottom: 5px;
+
+}
+.user1 hr
+{
+    height: 1px;
+    background-color: #2f2f2f;
+    width: 95%;
+    }
+    .setteing-icons img
+    {
+        width: 39px;
+        margin-right: 8px;
+        border-radius: 50%;
+
+    }
+    .setteing-icons 
+    {
+        margin: 15px;
+    }
+    .setteing-icons  a
+    {
+        font-size: 13px;
+        margin-right: 5px;
+        transition: all 0.3s ease;
+        color: #2f2f2f;
+    }
+    .setteing-icons  a:hover
+    {
+        color: brown;
+        font-size:15px ;
+        text-decoration: none;
+    }
+    .mood
+    {
+        margin: 15px;
+        background-color: #f5f4f4;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+    .mood h5
+    {
+        font-size: 20px;
+        
+    
+        margin-left: 10px;
+        color: #2f2f2f;;
+    }
+    .mood i
+    {
+        
+        font-size: 39px;
+        margin-right: 8px;
+        border-radius: 50%;
+
+    }
+    .moodaler
+    {
+        background-color: black;
+    }
+    .hidden
+    {
+        max-height: 0;
+    }
+    .setteing-icons  a img
+    
+    {
+     width: 10px;  
+    }
+    .commentpage
+    {
+      width:600px ;
+    
+       height:500px; 
+       background-color: aliceblue;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+left: 250px;
+bottom:130px ;
+padding: 0 5%;
+border-radius: 6PX;
+height: 0;
+overflow: hidden;
+transition:all 0.7s ease ;
+
+    }
+
+
+    .commentpage input
+    {
+        margin-right: 20px;
+        width:200px;
+        border-radius: 5px;
+        outline: none;
+        border: solid 1px rgba(0, 0, 0, 0.4);
+
+    }
+    .commentpage label
+    {
+       margin-right: 20px;
+        font-weight: 700px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .commentpage-appear
+    {
+        height: 500px;
+    }
+ 
+    .commentpage2
+    {
+      width:600px ;
+    
+       height:500px; 
+       background-color: aliceblue;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+left: 250px;
+bottom:130px ;
+padding: 0 5%;
+border-radius: 6PX;
+height: 0;
+overflow: hidden;
+transition:all 0.7s ease ;
+
+    }
+
+    .commentpage2 input
+    {
+        margin-right: 20px;
+        width:200px;
+        border-radius: 5px;
+        outline: none;
+        border: solid 1px rgba(0, 0, 0, 0.4);
+
+    }
+    .commentpage2 label
+    {
+       margin-right: 20px;
+        font-weight: 700px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .commentpage2-appear
+    {
+        height: 500px;
+    }
+    .commentpage3
+    {
+      width:600px ;
+    
+       height:500px; 
+       background-color: aliceblue;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+left: 250px;
+bottom:130px ;
+padding: 0 5%;
+border-radius: 6PX;
+height: 0;
+overflow: hidden;
+transition:all 0.7s ease ;
+
+    }
+
+
+    .commentpage3 input
+    {
+        margin-right: 20px;
+        width:200px;
+        border-radius: 5px;
+        outline: none;
+        border: solid 1px rgba(0, 0, 0, 0.4);
+
+    }
+    .commentpage3 label
+    {
+       margin-right: 20px;
+        font-weight: 700px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .commentpage3-appear
+    {
+        height: 500px;
+    }
+ 
+ 
+    .commentpage4
+    {
+      width:600px ;
+    
+       height:500px; 
+       background-color: aliceblue;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+left: 250px;
+bottom:130px ;
+padding: 0 5%;
+border-radius: 6PX;
+height: 0;
+overflow: hidden;
+transition:all 0.7s ease-out ;
+
+    }
+
+    .commentpage4 input
+    {
+        margin-right: 20px;
+        width:200px;
+        border-radius: 5px;
+        outline: none;
+        border: solid 1px rgba(0, 0, 0, 0.4);
+
+    }
+    .commentpage4 label
+    {
+       margin-right: 20px;
+        font-weight: 700px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .commentpage4-appear
+    {
+        height: 500px;
+    }
+ 
+ .posticons button
+ {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+margin-right: 10px;
+outline: hidden;
+border: 0;
+border: solid .05px rgba(0, 0, 0, 0.4);
+ }
