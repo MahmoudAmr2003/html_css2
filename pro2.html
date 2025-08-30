@@ -92,7 +92,16 @@
     </nav>
 
 
-        <section class="frist ">
+        <section class="frist pition-relative">
+
+            <div id="showImage" class="showImage position-fixed  bg-danger w-75" style="height: 60%;z-index: 99999999;left: 12.5%; border-radius: 20px; top: 10%;">
+               <div onclick="hideImage()" style="position: absolute; right: 20px ; top: 20px;">
+                 <button class="btn btn-light p-3">
+                    <i class="fa fa-caret-down"></i>
+                </button>
+               </div>
+<img src="" alt="" id="theImage" class="w-100">
+            </div>
             <div class="container-fluid px-5">
 <div class="row">
 
@@ -208,7 +217,7 @@
         <button class="btn-outline-primary bbtt"><i class="fa-solid fa-thumbs-up"></i></button>
 
       <p>12</p>
-      <img src="images/comments.png" alt="" onclick="commentclick()">
+      <img src="images/comments.png" alt="" >
 
       <p>12</p>
 
@@ -368,7 +377,7 @@
 
         <script src="js/jquery-3.7.1.min.js"></script>
      
-    <script src="pro2.js"></script>
+    <script src="activ.js"></script>
 </body>
 
 </html> 
